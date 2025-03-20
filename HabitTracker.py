@@ -42,7 +42,7 @@ def RmHabit():
     new_habits = [habit for habit in habits if habit.strip().lower() != habit_to_remove]
 
     if len(new_habits) == len(habits):
-        print("\n❌ Habit not found.")
+        print("\n Habit not found.")
     else:
         with open("habits.txt", "w") as file:
             file.writelines(new_habits)
