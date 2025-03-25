@@ -6,7 +6,7 @@
 4. Exit
 
 
-/*Instructions*\
+*Instructions*
 Type one to add a habit
 Type two to mark habit as done
 Type 3 to View habits
