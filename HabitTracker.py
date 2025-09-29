@@ -16,7 +16,7 @@ def Menu():
         input("Press enter to return to menu")
         Menu()
     else:
-        menu()
+        Menu()
 
 #Functions for adding habits, marking habits as done, and viewing habits
 def AddHabit():
